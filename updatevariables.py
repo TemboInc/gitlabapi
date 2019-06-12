@@ -7,7 +7,7 @@ import click
 @click.argument('private_token')
 @click.argument('project_name')
 @click.argument('username')
-def main(env_file, private_token, project_name, username):
+def update_variables(env_file, private_token, project_name, username):
     """
     A command line app to create and update Gitlab environment variables. Will read an env_file in the following form.
     Variables will only be created or updated, NOT deleted.
@@ -49,4 +49,4 @@ def main(env_file, private_token, project_name, username):
 
 
 if __name__ == '__main__':
-    main()
+    update_variables()
