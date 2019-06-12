@@ -1,8 +1,15 @@
 # Gitlabapi
 
-A simple script to set/update Gitlab CI variables. 
+A command line app to create and update Gitlab environment variables. Will read an env_file in the following form.
+Variables will only be created or updated, NOT deleted.
+  
+    # Comments are ignored
+    foo=bar
+    spam=ham
 
-[See the open issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/55460)
+
+
+[See the open Gitlab issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/55460)
 
 ## Usage
 
