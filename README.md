@@ -13,7 +13,7 @@ Variables will only be created or updated, NOT deleted.
 
 ## Usage
 
-`python createvariables.py env_file_path private_token project_name username`
+`python updatevariables.py env_file_path private_token project_name username`
 
 A private token can be created in Gitlab Account Settings > Access Tokens. (The token must have api scope)
 
